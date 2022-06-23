@@ -4,3 +4,8 @@ spring:
         password: postgres
         url: jdbc:postgresql://localhost:5432/postgres
         username: postgres
+    flyway:
+        url: jdbc:postgresql://localhost:5432/postgres
+        schemas: restsample
+        user: postgres
+        password: postgres
